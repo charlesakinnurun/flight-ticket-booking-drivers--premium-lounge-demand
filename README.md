@@ -1,7 +1,7 @@
 ![British Airways Logo](/assets/ba-logo.png)
 
 
-## TASK 1
+## Task One: Modeling lounge eligibility at Heathrow Terminal 3
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
 <ul><li>How using airline data and modeling helps British Airways forecast lounge demand and plan for future capacity planning</li></ul>
 
