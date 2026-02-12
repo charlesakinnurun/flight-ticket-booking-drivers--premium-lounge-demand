@@ -1,5 +1,5 @@
 ![British Airways Logo](/assets/ba-logo.png)
-# DATA SCIENCE VIRTUAL EXPERIENCE PROGRAM
+
 
 ## TASK 1
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
