@@ -14,7 +14,7 @@
 <p><a href="/case-study/BA_Task_1.pdf">Click here to view project case study</a>
 
 <h2 align="center" >Lounge Eligibility Lookup Table</h2>
-<p>I have processed the dataset to generate the eligibility percentages. Here is a lookup table based on the analysis of the <a href="/spreadsheets/British Airways Summer Schedule Dataset - Forage Data Science Task 1 (1).xlsx">British Airways Summer Schedule</a> file.
+<p>I have processed the dataset to generate the eligibility percentages. Here is a lookup table based on the analysis of the <a href="/spreadsheets/British_Airways_Summer_Schedule_Dataset-Forage_Data_Science_Task1.xlsx">British Airways Summer Schedule</a> file.
 
 <h4>Grouping Logic:</h4>
 <ul>
@@ -34,4 +34,4 @@
 
 ![Justification](/assets/justification.png)
 
-<a href="/spreadsheets/answers/Lounge Eligibility Lookup Table.xlsx">Check out the full justification</a>
+<a href="/spreadsheets/answers/Lounge_Eligibility_Lookup_Table.xlsx">Check out the full justification</a>
