@@ -1,4 +1,4 @@
-![British Airways Logo](/assets/ba-logo.png)
+![British Airways Logo](/assets/ba-logo.webp)
 
 
 ## Task One: Modeling lounge eligibility at Heathrow Terminal 3
