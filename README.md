@@ -130,6 +130,9 @@
 | 49999 | 1            | Internet      | RoundTrip | 19            | 6              | 10          | 4          | PERPNH | Australia      | 0                   | 1                    | 0                     | 5.62            | 0                |
 
 - Data Preprocessing and Feature Engineering
+- Data Encoding
+- Data Splitting
+- Data Scaling
 - Model Comparison
     - Random Forest
     - Naive Bayes
