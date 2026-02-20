@@ -102,10 +102,20 @@
 | 13 | booking_complete       | 50000 non-null | int64   |
 
 - Exploratory Data Analysis
+
     - <a href="/assets/distribution.png">Distribution of Target Variable</a>
+
+    ![Distribution of Targt Variable](/assets/distribution.png)
     - <a href="/assets/histogram.png">Histogram of Numerical Features</a>
+
+    ![Histogram of Numerical Features](/assets/histogram.png)
+
     - <a href="/assets/correlation_heatmap.png">Correlation Heatmap</a>
+
+    ![Correlation Heatmap](/assets/correlation_heatmap.png)
     - <a href="/assets/booking_completion.png">Bookinng Completion by Flight day</a>
+
+    ![Booking Completion of Flight Day](/assets/booking_completion.png)
 
 - Data Cleaning
     - Check for missing values
@@ -144,9 +154,13 @@
 - Model Training 
 
     <a href="assets\model_comparison_by_accuracy.png">Model Comparison by Accuracy</a>
+
+    ![Model Comparison by Accuracy](/assets/model_comparison_by_accuracy.png)
 - Hyperparameter Tuning
 
     <a href="/assets/confusion_matrix.png"> Confusion Matrix (Tuned RandomForest)</a>
+
+    ![Confusion Matrix](/assets/confusion_matrix.png)
 - Model Evaluation
 
 | Model                | Accuracy | Precision | Recall   | F1 Score | ROC AUC |
@@ -178,9 +192,6 @@
     - trip_type_OneWay: 0.0007
 
     <a href="/assets/top_15_feature_importances.png">Top 15 Feature Importance</a>
+    
+    ![Top 15 Feature Importance](/assets/top_15_feature_importances.png)
 
-- Analysis Summary
-
-    The most influential variable is 'purchase_lead'.
-    This suggests that this factor is the primary driver in distingushing between
-    customers who book and those who don't
