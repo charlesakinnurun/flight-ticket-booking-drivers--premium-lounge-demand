@@ -13,7 +13,7 @@
 
 <p><a href="/case-study/BA_Task_1.pdf">Check out project case study</a>
 
-<h2 align="left" >Lounge Eligibility Lookup Table</h2>
+<h3 align="left" >Lounge Eligibility Lookup Table</h3>
 <p>I have processed the dataset to generate the eligibility percentages. Here is a lookup table based on the analysis of the <a href="/spreadsheets/British_Airways_Summer_Schedule_Dataset-Forage_Data_Science_Task1.xlsx">British Airways Summer Schedule</a> file.
 
 <h4>Grouping Logic:</h4>
