@@ -1,7 +1,7 @@
 ![British Airways Logo](/assets/ba-logo.png)
 
 
-<h2 align="center"> Modeling lounge eligibility at Heathrow Terminal 3</b></h2>
+<h1 align="center"> Modeling lounge eligibility at Heathrow Terminal 3</b></h1>
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
 <ul><li>How using airline data and modeling helps British Airways forecast lounge demand and plan for future capacity planning</li></ul>
 
@@ -13,7 +13,7 @@
 
 <p><a href="/case-study/BA_Task_1.pdf">Check out project case study</a>
 
-<h2 align="center" >Lounge Eligibility Lookup Table</h2>
+<h2 align="left" >Lounge Eligibility Lookup Table</h2>
 <p>I have processed the dataset to generate the eligibility percentages. Here is a lookup table based on the analysis of the <a href="/spreadsheets/British_Airways_Summer_Schedule_Dataset-Forage_Data_Science_Task1.xlsx">British Airways Summer Schedule</a> file.
 
 <h4>Grouping Logic:</h4>
@@ -30,7 +30,7 @@
 
 
 
-<h3 align="center" >JUSTIFICATION</h3>
+<h3 align="left" >JUSTIFICATION</h3>
 
 ![Justification](/assets/justification.png)
 
@@ -38,7 +38,7 @@
 
 
 
-<h2 align="center">Predicting customer buying behaviour</b></h2>
+<h1 align="center">Predicting customer buying behaviour</b></h1>
 
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
 <ul><li>How using data and predictive models helps British Airways acquire customers before they embark on their holidays.</li></ul>
@@ -53,7 +53,7 @@
 
 <p><a href="/case-study/BA_Task_2.pdf">Check out project case study</a>
 
-### Procedures
+<h2 align="center">Workflow</h2>
 <!--
 - Import Libraries
     - pandas
@@ -62,7 +62,11 @@
     - seaborn
     - matplotlib
 -->
-- Data Loading
+
+- <h4><a href="/src/data_loader.py">Data Loading</a></h4>
+
+
+<!-- - Data Loading -->
 
 <a href="/data/customer_booking.csv">Check out dataset</a>
 
@@ -80,10 +84,14 @@
 | 49998 | 1 | Internet | RoundTrip | 15  | 6 | 11 | 1 | PERPNH | Australia | 1 | 0 | 1 | 5.62 | 0 |
 | 49999 | 1 | Internet | RoundTrip | 19  | 6 | 10 | 4 | PERPNH | Australia | 0 | 1 | 0 | 5.62 | 0 |
 
-- Data Shape
+- <h4><a href="/src/data_loader.py">Data Shape</a></h4>
+
     - 50000, 14
 
-- Data Information
+<!-- - Data Shape-->
+    
+
+- <h4>Data Information</h4>
 
 | #  | Column                | Non-Null Count | Dtype   |
 |----|------------------------|----------------|---------|
@@ -102,7 +110,7 @@
 | 12 | flight_duration        | 50000 non-null | float64 |
 | 13 | booking_complete       | 50000 non-null | int64   |
 
-- Exploratory Data Analysis
+- <h4>Exploratory Data Analysis</h4>
 
     - <a href="/assets/distribution.png">Distribution of Target Variable</a>
 
@@ -118,7 +126,8 @@
 
     ![Booking Completion of Flight Day](/assets/booking_completion.png)
 
-- Data Cleaning
+- <h4>Data Cleaning</h4>
+
     - Check for missing values
     - Check for duplicated rows
         - Duplicated rows: 719
@@ -140,11 +149,12 @@
 | 49998 | 1            | Internet      | RoundTrip | 15            | 6              | 11          | 1          | PERPNH | Australia      | 1                   | 0                    | 1                     | 5.62            | 0                |
 | 49999 | 1            | Internet      | RoundTrip | 19            | 6              | 10          | 4          | PERPNH | Australia      | 0                   | 1                    | 0                     | 5.62            | 0                |
 
-- Data Preprocessing and Feature Engineering
-- Data Encoding
-- Data Splitting
-- Data Scaling
-- Model Comparison
+- <h4>Data Preprocessing and Feature Engineering</h4>
+- <h4>Data Encoding</h4>
+- <h4>Data Splitting</h4>
+- <h4>Data Scaling</h4>
+- <h4>Model Comparison</h4>
+
     - Random Forest
     - Naive Bayes
     - Decision Trees
@@ -152,17 +162,20 @@
     - AdaBoost
     - Gradient Boosting
     - K-Nearest Neighbors
-- Model Training 
+
+- <h4>Model Training</h4> 
 
     <a href="assets\model_comparison_by_accuracy.png">Model Comparison by Accuracy</a>
 
     ![Model Comparison by Accuracy](/assets/model_comparison_by_accuracy.png)
-- Hyperparameter Tuning
+
+- <h4>Hyperparameter Tuning</h4>
 
     <a href="/assets/confusion_matrix.png"> Confusion Matrix (Tuned RandomForest)</a>
 
     ![Confusion Matrix](/assets/confusion_matrix.png)
-- Model Evaluation
+
+- <h4>Model Evaluation</h4>
 
 | Model                | Accuracy | Precision | Recall   | F1 Score | ROC AUC |
 |----------------------|----------|-----------|----------|----------|---------|
@@ -174,9 +187,9 @@
 | Decision Tree        | 0.7793   | 0.281500  | 0.306150 | 0.293308 | 0.584302 |
 | Naive Bayes          | 0.6778   | 0.245878  | 0.558155 | 0.341374 | 0.681815 |
 
-- Feature Importance
+- <h4>Feature Importance</h4>
 
-    FEATURE IMPORTANCE ANALYSIS
+    <!-- FEATURE IMPORTANCE ANALYSIS-->
 
     <i>Top 5 Predictors</i>
     -  purchase_lead: 0.1931
