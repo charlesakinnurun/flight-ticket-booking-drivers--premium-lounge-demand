@@ -54,13 +54,14 @@
 <p><a href="/case-study/BA_Task_2.pdf">Check out project case study</a>
 
 ### Procedures
+<!--
 - Import Libraries
     - pandas
     - numpy
     - sckit-learn
     - seaborn
     - matplotlib
-
+-->
 - Data Loading
 
 <a href="/data/customer_booking.csv">Check out dataset</a>
