@@ -1,9 +1,14 @@
 ![British Airways Logo](/assets/ba-logo.png)
 
 
+
+<!--
 <h1 align="center"> Modeling lounge eligibility at Heathrow Terminal 3</b></h1>
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
 <ul><li>How using airline data and modeling helps British Airways forecast lounge demand and plan for future capacity planning</li></ul>
+
+-->
+
 
 <p style="color: red; font-size: 16px;">What I did</p>
 <ul>
