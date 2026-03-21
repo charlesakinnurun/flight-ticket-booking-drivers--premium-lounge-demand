@@ -45,9 +45,11 @@
 
 <h1 align="center">Predicting customer buying behaviour</b></h1>
 
+
+<!--
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
 <ul><li>How using data and predictive models helps British Airways acquire customers before they embark on their holidays.</li></ul>
-
+-->
 <p style="color: red; font-size: 16px;">What I did</p>
 <ul>
 <li>Developed a machine learning pipeline to understand factors that influences buying behaviour </li>
