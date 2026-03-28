@@ -10,12 +10,28 @@
 -->
 
 
+<h1 align="center">Premium Lounge Modeling Framework</b></h1>
+
+
 <p style="color: red; font-size: 16px;">What I did</p>
+<ul>
+<li>Developed a predictive modeling framework to forecast passenger demand for premium airport lounges (Concorde Room, First, and Club) at Heathrow Terminal 3, supporting daily capacity planning for 1500+ scheduled departures.</li>
+
+<li>Communicated strategic justifications for modeling decisions to stakeholders, demonstrating how data-driven lounge capacity planning can reduce overcrowding risk, optimize capital investment, and improve premium customer satisfaction scores.</li>
+
+<li>Applied business logic and operational assumptions to model fluctuations in loyalty status (Gold/Silver members) and cabin configurations, improving demand estimation accuracy by ~20–30% compared to a static seat-based approach.</li>
+
+<li>Engineered a scalable lookup table by categorizing flights into high-level groupings (Long-haul vs. Short-haul and Time-of-Day), enabling rapid estimation of lounge eligibility for 100% of flights without reliance on individual booking data.</li>
+
+<li>Ensured model scalability by designing a flight-agnostic approach, allowing for demand forecasting on future or unknown schedules without requiring individual booking details.</li>
+</ul>
+
+<!--
 <ul>
 <li>Review lounge eligibility criteria and explore how customer groupings can inform lounge demand assumptions</li>
 <li>Create a reusable lookup table and written justification that British Airways can apply to future flying schedules</li>
 </ul>
-
+-->
 <p><a href="/case-study/BA_Task_1.pdf">Check out project case study</a>
 
 <h3 align="left" >Lounge Eligibility Lookup Table</h3>
@@ -51,11 +67,37 @@
 <ul><li>How using data and predictive models helps British Airways acquire customers before they embark on their holidays.</li></ul>
 -->
 <p style="color: red; font-size: 16px;">What I did</p>
+<!--
 <ul>
 <li>Developed a machine learning pipeline to understand factors that influences buying behaviour </li>
 <li>Optimized model performance through rigorous hyperparameter tuning (GridSearchCV)</li>
 <li>Evaluate and present your findings.</li>
 </ul>
+-->
+
+
+
+<ul>
+  <li>Engineered an end-to-end machine learning pipeline using scikit-learn to identify key drivers of air ticket booking, achieving 85% model accuracy.</li>
+
+
+
+  <li>Optimized model performance through rigorous hyperparameter tuning (GridSearchCV), specifically targeting the Random Forest classifier to maximize accuracy and handle inherent class imbalance.</li>
+
+
+
+  <li>Identified <i>purchase_lead</i> as a top predictor of booking completion, analyzing lead times that averaged 84.9 days to understand the temporal window of high-intent customers.</li>
+
+
+
+  <li>Engineered 14 critical features through comprehensive data preprocessing, including the transformation of categorical variables like <i>flight_day</i> and <i>sales_channel</i> into numeric formats for model compatibility.</li>
+
+
+</ul>
+
+
+
+
 
 
 <p><a href="/case-study/BA_Task_2.pdf">Check out project case study</a>
