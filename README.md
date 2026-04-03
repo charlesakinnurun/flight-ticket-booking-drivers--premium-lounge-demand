@@ -61,6 +61,7 @@
 
 <h1 align="center">Predicting customer buying behaviour</b></h1>
 
+![machine learning pipeline image](/assets/pipeline.webp)
 
 <!--
 <p style="color: red; font-size: 16px; align:center;">What I learned</p>
