@@ -12,6 +12,8 @@
 
 <h1 align="center">Premium Lounge Modeling Framework</b></h1>
 
+<p align="center"><a href="https://www.theforage.com/virtual-experience/EuvC8GPjkZ6xaiP9p/lloyds-banking-group/data-science-fpey/data-gathering-and-exploratory-analysis?wvideo=dozhdsqfu7"><img src="https://embed-ssl.wistia.com/deliveries/4b4faaa825232650dd4f6748585d95e489634885.jpg?image_play_button_size=2x&image_crop_resized=960x540&image_play_button_rounded=1&image_play_button_color=047934e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://www.theforage.com/virtual-experience/EuvC8GPjkZ6xaiP9p/lloyds-banking-group/data-science-fpey/data-gathering-and-exploratory-analysis?wvideo=dozhdsqfu7">Data Science Task 1</a></p>
+
 
 <p style="color: red; font-size: 16px;">What I did</p>
 <ul>
